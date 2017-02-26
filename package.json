@@ -1,0 +1,23 @@
+{
+  "name": "react-with-fusebox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server/server.js | node ./fuse.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "fuse-box": "^1.3.122",
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
